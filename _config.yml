@@ -1,0 +1,28 @@
+# Header
+menu:
+  Home: /
+  Archives: /archives
+
+# Default post title
+default_post_title: Untitled
+
+# Default post cover
+default_post_cover: Untitled
+
+# Comments. Choose one by filling up the information
+comments:
+  # Disqus comments
+  disqus_shortname: klugjo
+  # Facebook comments
+  facebook:
+    appid:
+    comment_count: 5
+    comment_colorscheme: light
+
+# Google Analytics Tracking ID
+google_analytics:
+
+# Social Accounts
+twitter_url:
+facebook_url:
+github_url: https://github.com/klugjo/hexo-theme-clean-blog
