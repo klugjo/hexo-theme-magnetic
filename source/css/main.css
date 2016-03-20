@@ -109,12 +109,6 @@ h5, h6          { font-weight: bolder }
     *zoom: 1;  
 }
 
-
-
-
-
-
-
 /*  Header  */
 @media (min-width:1099px){
     header{
@@ -275,11 +269,6 @@ h5, h6          { font-weight: bolder }
     background-position: -41px 0!important;
 }
 
-
-
-
-
-
 /*  Main  */
 .main{
     width: 100%;
@@ -293,12 +282,6 @@ h5, h6          { font-weight: bolder }
     background: #f6f6f6;
     clear: both;
 }
-
-
-
-
-
-
 
 /*  Home/portfolio  */
 .main .work{
@@ -326,11 +309,9 @@ h5, h6          { font-weight: bolder }
     opacity: 0;
 }
 
-
 .main .work a:hover .caption{
     opacity: 1;
 }
-
 
 .work .caption .work_title{
     display: block;
@@ -355,11 +336,52 @@ h5, h6          { font-weight: bolder }
     border-top: 1px solid #bfbbbb;
 }
 
+.main .gallery-container{
+    width: 100%;
+}
 
+/* Clearfix */
+.main .gallery-container:after {
+    content: " ";
+    visibility: hidden;
+    display: block;
+    height: 50px;
+    clear: both;
+}
 
+.main .gallery-container .picture-container{
+    width: 150px;
+    float: left;
+    margin-right: 30px;
+}
 
+.main .gallery-container .picture-container .img-thumbnail{
+    padding: 4px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
 
+.main .tags a, .main .tags a:visited, .main .tags a:active{
+    display: inline-block;
+    background: #fff;
+    width: auto;
+    height: auto;
+    border-radius: 3px;
+    letter-spacing: .01em;
+    cursor: pointer;
+    margin: 0 4px 7px 0;
+    color: #454545!important;
+    border: 1px solid #454545;
+    padding: 7px 15px;
+    text-decoration: none;
+}
 
+.main .tags a:hover{
+    color: #969595!important;
+    border: 1px solid #969595;
+}
 
 /*  Inner Page  */
 .top{
@@ -368,7 +390,6 @@ h5, h6          { font-weight: bolder }
     overflow: hidden;
     display: block;
     position: relative;
-    background: url('../img/hero_image.jpg') no-repeat;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -408,12 +429,20 @@ h5, h6          { font-weight: bolder }
     background-position: 0 0;
 }
 
+.work_nav a.previous.disabled{
+    cursor: no-drop;
+}
+
 .work_nav a.grid{
     background-position: -41px 0;
 }
 
 .work_nav a.next{
     background-position: -82px 0;
+}
+
+.work_nav a.next.disabled{
+    cursor: no-drop;
 }
 
 .top .title{
@@ -451,6 +480,7 @@ h5, h6          { font-weight: bolder }
     line-height: 22px;
     padding: 60px 30px;
     background: #fff;
+    margin-bottom: 70px;
 
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -479,41 +509,6 @@ h5, h6          { font-weight: bolder }
     margin-bottom: 30px;
 
 }
-
-
-
-
-
-
-
-/*  Contact page map  */
-#map .map_adresse{
-    font-family: 'raleway-regular', arial;
-    font-size: 14px;
-    line-height: 22px;
-    letter-spacing: 1px;
-}
-
-#map .map_address,
-#map .map_tel{
-    padding: 5px;
-}
-
-#map .map_address .address,
-#map .map_tel .tel{
-    font-family: 'raleway-bold', arial;
-    font-weight: bolder;
-}
-
-#map img{
-    max-width: none;
-}
-
-
-
-
-
-
 
 /*  Tooltip  */
 .tooltip{
@@ -546,12 +541,6 @@ h5, h6          { font-weight: bolder }
     left: 50%;
     margin-left: -3px;
 }
-
-
-
-
-
-
 
 /*  Responsive code  */
 @media (max-width:1099px){
@@ -620,9 +609,6 @@ h5, h6          { font-weight: bolder }
         width: 100%;
         position: relative;
         padding-left: 0;
-    }
-    #map{
-        margin: 0!important;
     }
 }
 

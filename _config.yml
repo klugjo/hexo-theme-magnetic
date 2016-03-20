@@ -6,8 +6,11 @@ menu:
 # Default post title
 default_post_title: Untitled
 
-# Default post cover
-default_post_cover: Untitled
+# Default post cover index page
+default_cover_index: Untitled
+
+# Default post cover index page
+default_cover_detail: "http://placehold.it/1300x500"
 
 # Comments. Choose one by filling up the information
 comments:
