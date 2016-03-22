@@ -281,6 +281,7 @@ h5, h6          { font-weight: bolder }
     z-index: 55;
     background: #f6f6f6;
     clear: both;
+    min-height: 100vh;
 }
 
 /*  Home/portfolio  */
@@ -488,6 +489,10 @@ h5, h6          { font-weight: bolder }
     box-sizing: border-box;
 }
 
+.content.archives{
+    margin-top: 90px;
+}
+
 .content p{
     color: #4b4848;
     font-family: "raleway-regular", arial;
@@ -508,6 +513,34 @@ h5, h6          { font-weight: bolder }
     line-height: 28px;
     margin-bottom: 30px;
 
+}
+
+.content img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.content ol, .content ul{
+    margin-left: 15px;
+    list-style-type: none;
+}
+
+.content ul.archive-list{
+    margin: 20px 0 20px 45px;
+}
+
+.content ul.archive-list li {
+    margin: 20px 0;
+}
+
+.content ul.archive-list li a, .content ul.archive-list li a:active, .content ul.archive-list li a:visited{
+    text-decoration: none;
+    color: #454545;
+}
+
+.content ul.archive-list li a:hover{
+    color: #969595;
 }
 
 /*  Tooltip  */

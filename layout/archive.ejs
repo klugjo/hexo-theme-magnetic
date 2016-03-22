@@ -1,0 +1,15 @@
+
+
+<section class="main clearfix">
+    <section class="wrapper">
+        <div class="content archives">
+            <ul class="archive-list">
+                <% site.posts.each(function(item){ %>
+                    <%- partial('_partial/article-archive', {item: item}) %>
+                <% }); %>
+            </ul>
+        </div><!-- end content -->
+    </section>
+</section><!-- end main -->
+
+
