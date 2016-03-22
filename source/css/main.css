@@ -512,7 +512,6 @@ h5, h6          { font-weight: bolder }
     font-weight: bold;
     line-height: 28px;
     margin-bottom: 30px;
-
 }
 
 .content img{
@@ -524,6 +523,16 @@ h5, h6          { font-weight: bolder }
 .content ol, .content ul{
     margin-left: 15px;
     list-style-type: none;
+}
+
+.content div.archive-title{
+    margin-left: 45px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'raleway-regular';
+    color: #454545;
+    font-size: 1.5em;
+    margin-bottom: 50px;
 }
 
 .content ul.archive-list{
