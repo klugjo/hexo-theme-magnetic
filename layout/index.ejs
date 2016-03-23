@@ -1,7 +1,6 @@
 <section class="main clearfix">
     <% page.posts.each(function(item){ %>
-    <%- partial('_partial/article-index', {item: item}) %>
+        <%- partial('_partial/article-index', {item: item}) %>
     <% }); %>
+    <%- partial('_partial/pagination') %>
 </section>
-
-<!--<%- partial('_partial/pagination') %>-->

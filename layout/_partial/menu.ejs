@@ -17,12 +17,24 @@
 
     <div class="footer clearfix">
         <ul class="social clearfix">
-            <li><a href="#" class="fb" data-title="Facebook"></a></li>
-            <li><a href="#" class="google" data-title="Google +"></a></li>
-            <li><a href="#" class="behance" data-title="Behance"></a></li>
-            <!--<li><a href="#" class="twitter" data-title="Twitter"></a></li>
-            <li><a href="#" class="dribble" data-title="Dribble"></a></li>-->
-            <li><a href="#" class="rss" data-title="RSS"></a></li>
+            <% if (theme.twitter_url) { %>
+                <li><a href="theme.twitter_url" class="twitter" target="_blank" data-title="Twitter"></a></li>
+            <% } %>
+            <% if (theme.facebook_url) { %>
+                <li><a href="theme.facebook_url" class="fb" target="_blank" data-title="Facebook"></a></li>
+            <% } %>
+            <% if (theme.behance_url) { %>
+                <li><a href="theme.behance_url" class="behance" target="_blank" data-title="Behance"></a></li>
+            <% } %>
+            <% if (theme.googleplus_url) { %>
+                <li><a href="theme.googleplus_url" class="google" target="_blank" data-title="Google+"></a></li>
+            <% } %>
+            <% if (theme.dribble_url) { %>
+                <li><a href="theme.dribble_url" class="dribble" target="_blank" data-title="Dribble"></a></li>
+            <% } %>
+            <% if (theme.rss_url) { %>
+                <li><a href="theme.rss_url" class="rss" target="_blank" data-title="RSS"></a></li>
+            <% } %>
         </ul><!-- end social -->
 
         <div class="rights">

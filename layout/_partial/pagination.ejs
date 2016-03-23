@@ -1,0 +1,12 @@
+<% if(page.prev || page.next) { %>
+    <% if (page.prev){ %>
+        <div class="pagination"><a href="<%- config.root %><%- page.prev_link %>">&larr;</a></div>
+    <% } else { %>
+        <div class="pagination inactive"></div>
+    <% } %>
+    <% if (page.next){ %>
+        <div class="pagination"><a href="<%- config.root %><%- page.next_link %>">&rarr;</a></div>
+    <% } else { %>
+        <div class="pagination inactive"></div>
+    <% } %>
+<% } %>

@@ -294,6 +294,36 @@ h5, h6          { font-weight: bolder }
     overflow: hidden;
 }
 
+.main .pagination{
+    display: block;
+    width: 50%;
+    height: 60px;
+    text-align: center;
+    vertical-align: middle;
+    overflow: hidden;
+    float: left;
+    position: relative;
+    cursor: pointer;
+    background: white;
+}
+
+.main .pagination:hover{
+    background: red;
+}
+
+.main .pagination.inactive{
+    background: transparent;
+    cursor: auto;
+}
+
+.main .pagination a{
+    display: block;
+    line-height: 60px;
+    font-size: 30px;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
 .main .work .media{
     width: 100%;
     vertical-align: middle;
