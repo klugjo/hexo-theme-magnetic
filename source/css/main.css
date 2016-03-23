@@ -294,34 +294,40 @@ h5, h6          { font-weight: bolder }
     overflow: hidden;
 }
 
-.main .pagination{
+.main .pagination-container{
     display: block;
-    width: 50%;
+    width: 100%;
     height: 60px;
     text-align: center;
     vertical-align: middle;
     overflow: hidden;
     float: left;
     position: relative;
+}
+
+.main .pagination {
+    display: inline-block;
+    font-family: "raleway-regular", arial;
+    width: auto;
+    height: auto;
+    letter-spacing: .01em;
     cursor: pointer;
-    background: white;
+    margin: 0 4px 7px 0;
+    color: #454545!important;
+    padding: 7px 15px;
+    margin-top: 17px;
 }
 
 .main .pagination:hover{
-    background: red;
-}
-
-.main .pagination.inactive{
-    background: transparent;
-    cursor: auto;
+    color: #969595!important;
 }
 
 .main .pagination a{
-    display: block;
-    line-height: 60px;
-    font-size: 30px;
     text-decoration: none;
-    vertical-align: middle;
+}
+
+.main .pagination a:hover{
+    color: #969595;
 }
 
 .main .work .media{
@@ -628,6 +634,21 @@ h5, h6          { font-weight: bolder }
         margin: 40px 0 0 30px;
         float: left;
     }
+
+    header .logo a, header .logo a:active, header .logo a:visited {
+        text-decoration: none;
+        text-transform: uppercase;
+        font-family: 'raleway-regular';
+        color: #454545;
+        font-size: 1.5em;
+    }
+
+    header .logo a:hover {
+        text-decoration: none;
+        color: #969595;
+        font-size: 1.5em;
+    }
+
     header .footer{
         display: none;
     }
