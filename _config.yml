@@ -7,7 +7,7 @@ menu:
 default_post_title: Untitled
 
 # Default post cover index page
-default_cover_index: Untitled
+default_cover_index: "http://placehold.it/450x450"
 
 # Default post cover index page
 default_cover_detail: "http://placehold.it/1300x500"
@@ -29,6 +29,6 @@ google_analytics:
 twitter_url:
 facebook_url:
 behance_url:
-googleplus_url:
-dribble_url:
+googleplus_url: https://plus.google.com/+Pixelhint/posts
+dribble_url: https://dribbble.com/pixelhint
 rss_url:
