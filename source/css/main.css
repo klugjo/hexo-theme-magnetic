@@ -559,7 +559,6 @@ h5, h6          { font-weight: bolder }
 
 .content ol, .content ul{
     margin-left: 15px;
-    list-style-type: none;
 }
 
 .content div.archive-title{
@@ -574,6 +573,7 @@ h5, h6          { font-weight: bolder }
 
 .content ul.archive-list{
     margin: 20px 0 20px 45px;
+    list-style-type: none;
 }
 
 .content ul.archive-list li {
@@ -713,6 +713,42 @@ h5, h6          { font-weight: bolder }
 }
 
 
+/*Quotes*/
+blockquote {
+    border-left: 3px solid #5d686f;
+    padding: 0 15px;
+    font-style: italic;
+    margin: 1.5em 0 0;
+}
+blockquote cite:before {
+    content: ' — ';
+    padding: 0 0.3em;
+}
+blockquote > p:first-child {
+    margin: 0;
+}
+
+.pullquote {
+    text-align: left;
+    font-style: italic;
+    margin: 1.5em 0 0;
+}
+.pullquote.left {
+    width: 45%;
+    float: left;
+    margin: 1.5em 35px 1.5em 0;
+}
+.pullquote.right {
+    width: 45%;
+    float: right;
+    margin: 1.5em 0 1.5em 35px;
+}
+.pullquote.blur {
+    background-color: #eef0f1;
+}
+
+
+/*Code Block*/
 
 pre > code {
     display: block;
@@ -777,7 +813,7 @@ figure.highlight.plain .gutter,
 }
 figure.highlight figcaption,
 .codeblock figcaption {
-    font-size: 1.3rem;
+    font-size: 15px;
     padding: 0 15px 20px;
     margin: 0;
 }

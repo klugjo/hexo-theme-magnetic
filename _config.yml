@@ -15,7 +15,7 @@ default_cover_detail: "http://placehold.it/1300x500"
 # Comments. Choose one by filling up the information
 comments:
   # Disqus comments
-  disqus_shortname: klugjo
+  disqus_shortname:
   # Facebook comments
   facebook:
     appid:
@@ -27,8 +27,8 @@ google_analytics:
 
 # Social Accounts
 twitter_url:
-facebook_url:
-behance_url:
+facebook_url: https://www.facebook.com/
+behance_url: https://www.behance.net/
 googleplus_url: https://plus.google.com/+Pixelhint/posts
 dribble_url: https://dribbble.com/pixelhint
 rss_url:
