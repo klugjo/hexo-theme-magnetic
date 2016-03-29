@@ -534,7 +534,7 @@ h5, h6          { font-weight: bolder }
     font-family: "raleway-regular", arial;
     font-size: 15px;
     line-height: 24px;
-    margin-bottom: 60px;
+    margin-bottom: 25px;
 }
 
 .content h1,
@@ -547,7 +547,8 @@ h5, h6          { font-weight: bolder }
     font-family: "raleway-semibold", arial;
     font-weight: bold;
     line-height: 28px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
+    margin-top: 40px;
 }
 
 .content img{
@@ -709,4 +710,810 @@ h5, h6          { font-weight: bolder }
      .main .work{
         width: 100%;
     }
+}
+
+
+
+pre > code {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 15px;
+    font-family: Courier New, Courier, monospace;
+    border: none;
+    margin: 0;
+    cursor: text;
+    overflow-x: auto;
+    line-height: 1.7em;
+    font-size: 15px;
+}
+
+code {
+    font-size: 15px;
+    display: inline-block;
+    font-family: "Courier New", Courier, monospace;
+    font-weight: 400;
+    background-color: #f7f8f8;
+    padding: 0 10px;
+}
+
+figure.highlight,
+.codeblock {
+    margin: 10px 0;
+    line-height: 1.3em;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    overflow: scroll;
+}
+figure.highlight table,
+.codeblock table {
+    display: block;
+    width: 100%;
+}
+figure.highlight pre,
+figure.highlight .gutter,
+figure.highlight .code,
+figure.highlight .tag,
+.codeblock pre,
+.codeblock .gutter,
+.codeblock .code,
+.codeblock .tag {
+    background-color: inherit;
+    font-family: Courier New, Courier, monospace;
+    border: none;
+    padding: 0;
+    margin: 0;
+    cursor: text;
+}
+figure.highlight .gutter,
+figure.highlight .code,
+.codeblock .gutter,
+.codeblock .code {
+    vertical-align: top;
+}
+figure.highlight.plain .gutter,
+.codeblock.plain .gutter {
+    display: none;
+}
+figure.highlight figcaption,
+.codeblock figcaption {
+    font-size: 1.3rem;
+    padding: 0 15px 20px;
+    margin: 0;
+}
+figure.highlight figcaption a,
+.codeblock figcaption a {
+    float: right;
+}
+figure.highlight .gutter,
+.codeblock .gutter {
+    border-right: 1px solid;
+    padding: 0.3em 15px;
+}
+figure.highlight .code,
+.codeblock .code {
+    padding: 0.3em 15px 0.3em 1em;
+    width: 100%;
+}
+figure.highlight .code pre,
+.codeblock .code pre {
+    max-width: calc(750px - 50px);
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+figure.highlight .line,
+.codeblock .line {
+    height: 1.3em;
+    font-size: 15px;
+}
+
+.codeblock--tabbed figure.highlight,
+.codeblock--tabbed pre > code {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.codeblock--tabbed figcaption a, .codeblock--tabbed figcaption span {
+    float: left !important;
+}
+.codeblock--tabbed figcaption .tabs {
+    float: right;
+}
+.codeblock--tabbed figcaption .tabs .tab {
+    cursor: pointer;
+    display: inline-block;
+    margin: 0 5px;
+    padding: 0 7px;
+}
+.codeblock--tabbed figcaption .tabs .tab:last-child {
+    margin-right: 0;
+}
+
+.gist .line,
+.gist .line-number {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 1em;
+    margin: 0 0 5px 0;
+}
+
+pre > code {
+    background: #f7f8f8;
+    color: #333;
+}
+
+code {
+    background-color: #f7f8f8;
+}
+
+.codeblock--tabbed figcaption .tab.active {
+    background: #349ef3;
+    color: white;
+}
+
+figure.highlight,
+.codeblock {
+    background: #f7f8f8;
+    color: #333;
+}
+figure.highlight figcaption,
+.codeblock figcaption {
+    background: #f7f8f8;
+    color: #999999;
+}
+figure.highlight .gutter,
+.codeblock .gutter {
+    background: #f7f8f8;
+    border-right-color: #e6e6e6;
+}
+figure.highlight .gutter .line,
+.codeblock .gutter .line {
+    color: #aaaaaa;
+}
+figure.highlight .comment,
+.codeblock .comment {
+    color: #969896;
+}
+figure.highlight .string,
+.codeblock .string {
+    color: #183691;
+}
+figure.highlight .keyword,
+.codeblock .keyword {
+    color: #a71d5d;
+}
+figure.highlight.apacheconf .code .common,
+figure.highlight.apacheconf .code .nomarkup,
+figure.highlight.apacheconf .code .attribute,
+figure.highlight.apacheconf .code .variable,
+figure.highlight.apacheconf .code .cbracket,
+figure.highlight.apacheconf .code .keyword,
+.codeblock.apacheconf .code .common,
+.codeblock.apacheconf .code .nomarkup,
+.codeblock.apacheconf .code .attribute,
+.codeblock.apacheconf .code .variable,
+.codeblock.apacheconf .code .cbracket,
+.codeblock.apacheconf .code .keyword {
+    color: #0086b3;
+}
+figure.highlight.apacheconf .code .sqbracket,
+.codeblock.apacheconf .code .sqbracket {
+    color: #df5000;
+}
+figure.highlight.apacheconf .code .section,
+figure.highlight.apacheconf .code .tag,
+.codeblock.apacheconf .code .section,
+.codeblock.apacheconf .code .tag {
+    color: #63a35c;
+}
+figure.highlight.bash .code .shebang,
+.codeblock.bash .code .shebang {
+    color: #969896;
+}
+figure.highlight.bash .code .literal,
+figure.highlight.bash .code .built_in,
+.codeblock.bash .code .literal,
+.codeblock.bash .code .built_in {
+    color: #0086b3;
+}
+figure.highlight.bash .code .variable,
+.codeblock.bash .code .variable {
+    color: #333;
+}
+figure.highlight.bash .code .title,
+.codeblock.bash .code .title {
+    color: #795da3;
+}
+figure.highlight.coffeescript .code .title,
+.codeblock.coffeescript .code .title {
+    color: #795da3;
+}
+figure.highlight.coffeescript .code .literal,
+figure.highlight.coffeescript .code .built_in,
+figure.highlight.coffeescript .code .number,
+.codeblock.coffeescript .code .literal,
+.codeblock.coffeescript .code .built_in,
+.codeblock.coffeescript .code .number {
+    color: #0086b3;
+}
+figure.highlight.coffeescript .code .reserved,
+figure.highlight.coffeescript .code .attribute,
+.codeblock.coffeescript .code .reserved,
+.codeblock.coffeescript .code .attribute {
+    color: #1d3e81;
+}
+figure.highlight.coffeescript .code .subst,
+figure.highlight.coffeescript .code .regexp,
+figure.highlight.coffeescript .code .attribute,
+.codeblock.coffeescript .code .subst,
+.codeblock.coffeescript .code .regexp,
+.codeblock.coffeescript .code .attribute {
+    color: #df5000;
+}
+figure.highlight.cpp .code .preprocessor, figure.highlight.c .code .preprocessor,
+.codeblock.cpp .code .preprocessor,
+.codeblock.c .code .preprocessor {
+    color: #df5000;
+}
+figure.highlight.cpp .code .meta-keyword, figure.highlight.c .code .meta-keyword,
+.codeblock.cpp .code .meta-keyword,
+.codeblock.c .code .meta-keyword {
+    color: #a71d5d;
+}
+figure.highlight.cpp .code .title, figure.highlight.c .code .title,
+.codeblock.cpp .code .title,
+.codeblock.c .code .title {
+    color: #795da3;
+}
+figure.highlight.cpp .code .number,
+figure.highlight.cpp .code .built_in, figure.highlight.c .code .number,
+figure.highlight.c .code .built_in,
+.codeblock.cpp .code .number,
+.codeblock.cpp .code .built_in,
+.codeblock.c .code .number,
+.codeblock.c .code .built_in {
+    color: #0086b3;
+}
+figure.highlight.cs .code .preprocessor,
+figure.highlight.cs .code .preprocessor .keyword,
+.codeblock.cs .code .preprocessor,
+.codeblock.cs .code .preprocessor .keyword {
+    color: #333;
+}
+figure.highlight.cs .code .title,
+.codeblock.cs .code .title {
+    color: #795da3;
+}
+figure.highlight.cs .code .number,
+figure.highlight.cs .code .built_in,
+.codeblock.cs .code .number,
+.codeblock.cs .code .built_in {
+    color: #0086b3;
+}
+figure.highlight.cs .code .xmlDocTag,
+figure.highlight.cs .code .doctag,
+.codeblock.cs .code .xmlDocTag,
+.codeblock.cs .code .doctag {
+    color: #63a35c;
+}
+figure.highlight.css .code .at_rule,
+figure.highlight.css .code .important,
+figure.highlight.css .code .meta,
+.codeblock.css .code .at_rule,
+.codeblock.css .code .important,
+.codeblock.css .code .meta {
+    color: #a71d5d;
+}
+figure.highlight.css .code .attribute,
+figure.highlight.css .code .hexcolor,
+figure.highlight.css .code .number,
+figure.highlight.css .code .function,
+.codeblock.css .code .attribute,
+.codeblock.css .code .hexcolor,
+.codeblock.css .code .number,
+.codeblock.css .code .function {
+    color: #0086b3;
+}
+figure.highlight.css .code .attr_selector,
+figure.highlight.css .code .value,
+.codeblock.css .code .attr_selector,
+.codeblock.css .code .value {
+    color: #333;
+}
+figure.highlight.css .code .id,
+figure.highlight.css .code .class,
+figure.highlight.css .code .pseudo,
+figure.highlight.css .code .selector-pseudo,
+.codeblock.css .code .id,
+.codeblock.css .code .class,
+.codeblock.css .code .pseudo,
+.codeblock.css .code .selector-pseudo {
+    color: #795da3;
+}
+figure.highlight.css .code .tag,
+figure.highlight.css .code .selector-tag,
+.codeblock.css .code .tag,
+.codeblock.css .code .selector-tag {
+    color: #63a35c;
+}
+figure.highlight.diff .code .chunk,
+figure.highlight.diff .code .meta,
+.codeblock.diff .code .chunk,
+.codeblock.diff .code .meta {
+    color: #795da3;
+    font-weight: bold;
+}
+figure.highlight.diff .code .addition,
+.codeblock.diff .code .addition {
+    color: #55a532;
+    background-color: #eaffea;
+}
+figure.highlight.diff .code .deletion,
+.codeblock.diff .code .deletion {
+    color: #bd2c00;
+    background-color: #ffecec;
+}
+figure.highlight.http .code .attribute,
+figure.highlight.http .code .attr,
+.codeblock.http .code .attribute,
+.codeblock.http .code .attr {
+    color: #183691;
+}
+figure.highlight.http .code .literal,
+.codeblock.http .code .literal {
+    color: #0086b3;
+}
+figure.highlight.http .code .request,
+.codeblock.http .code .request {
+    color: #a71d5d;
+}
+figure.highlight.ini .code .title,
+figure.highlight.ini .code .section,
+.codeblock.ini .code .title,
+.codeblock.ini .code .section {
+    color: #795da3;
+}
+figure.highlight.ini .code .setting,
+figure.highlight.ini .code .attr,
+.codeblock.ini .code .setting,
+.codeblock.ini .code .attr {
+    color: #a71d5d;
+}
+figure.highlight.ini .code .value,
+figure.highlight.ini .code .keyword,
+.codeblock.ini .code .value,
+.codeblock.ini .code .keyword {
+    color: #333;
+}
+figure.highlight.java .code .title,
+.codeblock.java .code .title {
+    color: #795da3;
+}
+figure.highlight.java .code .javadoc,
+.codeblock.java .code .javadoc {
+    color: #969896;
+}
+figure.highlight.java .code .meta,
+figure.highlight.java .code .annotation,
+figure.highlight.java .code .javadoctag,
+.codeblock.java .code .meta,
+.codeblock.java .code .annotation,
+.codeblock.java .code .javadoctag {
+    color: #a71d5d;
+}
+figure.highlight.java .code .number,
+.codeblock.java .code .number {
+    color: #0086b3;
+}
+figure.highlight.java .code .params,
+.codeblock.java .code .params {
+    color: #1d3e81;
+}
+figure.highlight.js .code .built_in,
+figure.highlight.js .code .title,
+.codeblock.js .code .built_in,
+.codeblock.js .code .title {
+    color: #795da3;
+}
+figure.highlight.js .code .javadoc,
+.codeblock.js .code .javadoc {
+    color: #969896;
+}
+figure.highlight.js .code .tag,
+figure.highlight.js .code .javadoctag,
+.codeblock.js .code .tag,
+.codeblock.js .code .javadoctag {
+    color: #a71d5d;
+}
+figure.highlight.js .code .tag .title,
+.codeblock.js .code .tag .title {
+    color: #333;
+}
+figure.highlight.js .code .regexp,
+.codeblock.js .code .regexp {
+    color: #df5000;
+}
+figure.highlight.js .code .literal,
+figure.highlight.js .code .number,
+.codeblock.js .code .literal,
+.codeblock.js .code .number {
+    color: #0086b3;
+}
+figure.highlight.json .code .attribute,
+.codeblock.json .code .attribute {
+    color: #183691;
+}
+figure.highlight.json .code .number,
+figure.highlight.json .code .literal,
+.codeblock.json .code .number,
+.codeblock.json .code .literal {
+    color: #0086b3;
+}
+figure.highlight.mak .code .constant,
+.codeblock.mak .code .constant {
+    color: #333;
+}
+figure.highlight.mak .code .title,
+.codeblock.mak .code .title {
+    color: #795da3;
+}
+figure.highlight.mak .code .keyword,
+figure.highlight.mak .code .meta-keyword,
+.codeblock.mak .code .keyword,
+.codeblock.mak .code .meta-keyword {
+    color: #0086b3;
+}
+figure.highlight.md .code .value,
+figure.highlight.md .code .link_label,
+figure.highlight.md .code .strong,
+figure.highlight.md .code .emphasis,
+figure.highlight.md .code .blockquote,
+figure.highlight.md .code .quote,
+figure.highlight.md .code .section,
+.codeblock.md .code .value,
+.codeblock.md .code .link_label,
+.codeblock.md .code .strong,
+.codeblock.md .code .emphasis,
+.codeblock.md .code .blockquote,
+.codeblock.md .code .quote,
+.codeblock.md .code .section {
+    color: #183691;
+}
+figure.highlight.md .code .link_reference,
+figure.highlight.md .code .symbol,
+figure.highlight.md .code .code,
+.codeblock.md .code .link_reference,
+.codeblock.md .code .symbol,
+.codeblock.md .code .code {
+    color: #0086b3;
+}
+figure.highlight.md .code .link_url,
+figure.highlight.md .code .link,
+.codeblock.md .code .link_url,
+.codeblock.md .code .link {
+    text-decoration: underline;
+}
+figure.highlight.nginx .code .title,
+figure.highlight.nginx .code .attribute,
+.codeblock.nginx .code .title,
+.codeblock.nginx .code .attribute {
+    color: #a71d5d;
+}
+figure.highlight.nginx .code .built_in,
+figure.highlight.nginx .code .literal,
+.codeblock.nginx .code .built_in,
+.codeblock.nginx .code .literal {
+    color: #0086b3;
+}
+figure.highlight.nginx .code .regexp,
+.codeblock.nginx .code .regexp {
+    color: #183691;
+}
+figure.highlight.nginx .code .variable,
+.codeblock.nginx .code .variable {
+    color: #333;
+}
+figure.highlight.objectivec .code .preprocessor,
+figure.highlight.objectivec .code .meta,
+.codeblock.objectivec .code .preprocessor,
+.codeblock.objectivec .code .meta {
+    color: #a71d5d;
+}
+figure.highlight.objectivec .code .preprocessor .title,
+figure.highlight.objectivec .code .meta .title,
+.codeblock.objectivec .code .preprocessor .title,
+.codeblock.objectivec .code .meta .title {
+    color: #df5000;
+}
+figure.highlight.objectivec .code .meta-string,
+.codeblock.objectivec .code .meta-string {
+    color: #183691;
+}
+figure.highlight.objectivec .code .title,
+.codeblock.objectivec .code .title {
+    color: #795da3;
+}
+figure.highlight.objectivec .code .literal,
+figure.highlight.objectivec .code .number,
+figure.highlight.objectivec .code .built_in,
+.codeblock.objectivec .code .literal,
+.codeblock.objectivec .code .number,
+.codeblock.objectivec .code .built_in {
+    color: #0086b3;
+}
+figure.highlight.perl .code .sub,
+.codeblock.perl .code .sub {
+    color: #795da3;
+}
+figure.highlight.perl .code .title,
+.codeblock.perl .code .title {
+    color: #795da3;
+}
+figure.highlight.perl .code .regexp,
+.codeblock.perl .code .regexp {
+    color: #df5000;
+}
+figure.highlight.php .code .phpdoc,
+figure.highlight.php .code .doctag,
+.codeblock.php .code .phpdoc,
+.codeblock.php .code .doctag {
+    color: #a71d5d;
+}
+figure.highlight.php .code .regexp,
+.codeblock.php .code .regexp {
+    color: #df5000;
+}
+figure.highlight.php .code .literal,
+figure.highlight.php .code .number,
+.codeblock.php .code .literal,
+.codeblock.php .code .number {
+    color: #0086b3;
+}
+figure.highlight.php .code .title,
+.codeblock.php .code .title {
+    color: #795da3;
+}
+figure.highlight.python .code .decorator,
+figure.highlight.python .code .title,
+figure.highlight.python .code .meta,
+.codeblock.python .code .decorator,
+.codeblock.python .code .title,
+.codeblock.python .code .meta {
+    color: #795da3;
+}
+figure.highlight.python .code .number,
+.codeblock.python .code .number {
+    color: #0086b3;
+}
+figure.highlight.ruby .code .parent,
+figure.highlight.ruby .code .title,
+.codeblock.ruby .code .parent,
+.codeblock.ruby .code .title {
+    color: #795da3;
+}
+figure.highlight.ruby .code .prompt,
+figure.highlight.ruby .code .constant,
+figure.highlight.ruby .code .number,
+figure.highlight.ruby .code .subst .keyword,
+figure.highlight.ruby .code .symbol,
+.codeblock.ruby .code .prompt,
+.codeblock.ruby .code .constant,
+.codeblock.ruby .code .number,
+.codeblock.ruby .code .subst .keyword,
+.codeblock.ruby .code .symbol {
+    color: #0086b3;
+}
+figure.highlight.sql .built_in,
+.codeblock.sql .built_in {
+    color: #a71d5d;
+}
+figure.highlight.sql .number,
+.codeblock.sql .number {
+    color: #0086b3;
+}
+figure.highlight.xml .tag, figure.highlight.html .tag,
+.codeblock.xml .tag,
+.codeblock.html .tag {
+    color: #333;
+}
+figure.highlight.xml .value, figure.highlight.html .value,
+.codeblock.xml .value,
+.codeblock.html .value {
+    color: #183691;
+}
+figure.highlight.xml .attribute,
+figure.highlight.xml .attr, figure.highlight.html .attribute,
+figure.highlight.html .attr,
+.codeblock.xml .attribute,
+.codeblock.xml .attr,
+.codeblock.html .attribute,
+.codeblock.html .attr {
+    color: #795da3;
+}
+figure.highlight.xml .title,
+figure.highlight.xml .name, figure.highlight.html .title,
+figure.highlight.html .name,
+.codeblock.xml .title,
+.codeblock.xml .name,
+.codeblock.html .title,
+.codeblock.html .name {
+    color: #63a35c;
+}
+figure.highlight.puppet .title,
+.codeblock.puppet .title {
+    color: #795da3;
+}
+figure.highlight.puppet .function,
+.codeblock.puppet .function {
+    color: #0086b3;
+}
+figure.highlight.puppet .name,
+.codeblock.puppet .name {
+    color: #a71d5d;
+}
+figure.highlight.puppet .attr,
+.codeblock.puppet .attr {
+    color: #0086b3;
+}
+figure.highlight.less .tag,
+figure.highlight.less .at_rule,
+.codeblock.less .tag,
+.codeblock.less .at_rule {
+    color: #a71d5d;
+}
+figure.highlight.less .number,
+figure.highlight.less .hexcolor,
+figure.highlight.less .function,
+figure.highlight.less .attribute,
+.codeblock.less .number,
+.codeblock.less .hexcolor,
+.codeblock.less .function,
+.codeblock.less .attribute {
+    color: #0086b3;
+}
+figure.highlight.less .built_in,
+.codeblock.less .built_in {
+    color: #df5000;
+}
+figure.highlight.less .id,
+figure.highlight.less .pseudo,
+figure.highlight.less .class,
+figure.highlight.less .selector-id,
+figure.highlight.less .selector-class,
+figure.highlight.less .selector-tag,
+.codeblock.less .id,
+.codeblock.less .pseudo,
+.codeblock.less .class,
+.codeblock.less .selector-id,
+.codeblock.less .selector-class,
+.codeblock.less .selector-tag {
+    color: #795da3;
+}
+figure.highlight.scss .tag,
+figure.highlight.scss .at_rule,
+figure.highlight.scss .important,
+.codeblock.scss .tag,
+.codeblock.scss .at_rule,
+.codeblock.scss .important {
+    color: #a71d5d;
+}
+figure.highlight.scss .number,
+figure.highlight.scss .hexcolor,
+figure.highlight.scss .function,
+figure.highlight.scss .attribute,
+.codeblock.scss .number,
+.codeblock.scss .hexcolor,
+.codeblock.scss .function,
+.codeblock.scss .attribute {
+    color: #0086b3;
+}
+figure.highlight.scss .variable,
+.codeblock.scss .variable {
+    color: #333;
+}
+figure.highlight.scss .built_in,
+.codeblock.scss .built_in {
+    color: #df5000;
+}
+figure.highlight.scss .id,
+figure.highlight.scss .pseudo,
+figure.highlight.scss .class,
+figure.highlight.scss .preprocessor,
+figure.highlight.scss .selector-class,
+figure.highlight.scss .selector-id,
+.codeblock.scss .id,
+.codeblock.scss .pseudo,
+.codeblock.scss .class,
+.codeblock.scss .preprocessor,
+.codeblock.scss .selector-class,
+.codeblock.scss .selector-id {
+    color: #795da3;
+}
+figure.highlight.scss .tag,
+figure.highlight.scss .selector-tag,
+.codeblock.scss .tag,
+.codeblock.scss .selector-tag {
+    color: #63a35c;
+}
+figure.highlight.stylus .at_rule,
+.codeblock.stylus .at_rule {
+    color: #a71d5d;
+}
+figure.highlight.stylus .tag,
+figure.highlight.stylus .selector-tag,
+.codeblock.stylus .tag,
+.codeblock.stylus .selector-tag {
+    color: #63a35c;
+}
+figure.highlight.stylus .number,
+figure.highlight.stylus .hexcolor,
+figure.highlight.stylus .attribute,
+figure.highlight.stylus .params,
+.codeblock.stylus .number,
+.codeblock.stylus .hexcolor,
+.codeblock.stylus .attribute,
+.codeblock.stylus .params {
+    color: #0086b3;
+}
+figure.highlight.stylus .class,
+figure.highlight.stylus .id,
+figure.highlight.stylus .pseudo,
+figure.highlight.stylus .title,
+figure.highlight.stylus .selector-id,
+figure.highlight.stylus .selector-pseudo,
+figure.highlight.stylus .selector-class,
+.codeblock.stylus .class,
+.codeblock.stylus .id,
+.codeblock.stylus .pseudo,
+.codeblock.stylus .title,
+.codeblock.stylus .selector-id,
+.codeblock.stylus .selector-pseudo,
+.codeblock.stylus .selector-class {
+    color: #795da3;
+}
+figure.highlight.go .typename,
+.codeblock.go .typename {
+    color: #a71d5d;
+}
+figure.highlight.go .built_in,
+figure.highlight.go .constant,
+.codeblock.go .built_in,
+.codeblock.go .constant {
+    color: #0086b3;
+}
+figure.highlight.swift .preprocessor,
+.codeblock.swift .preprocessor {
+    color: #a71d5d;
+}
+figure.highlight.swift .title,
+.codeblock.swift .title {
+    color: #795da3;
+}
+figure.highlight.swift .built_in,
+figure.highlight.swift .number,
+figure.highlight.swift .type,
+.codeblock.swift .built_in,
+.codeblock.swift .number,
+.codeblock.swift .type {
+    color: #0086b3;
+}
+figure.highlight.yml .line
+.attr,
+.codeblock.yml .line
+.attr {
+    color: #63a35c;
+}
+figure.highlight.yml .line,
+figure.highlight.yml .string,
+figure.highlight.yml .type,
+figure.highlight.yml .literal,
+figure.highlight.yml .meta,
+.codeblock.yml .line,
+.codeblock.yml .string,
+.codeblock.yml .type,
+.codeblock.yml .literal,
+.codeblock.yml .meta {
+    color: #183691;
+}
+figure.highlight.yml .number,
+.codeblock.yml .number {
+    color: #0086b3;
 }

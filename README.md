@@ -1,4 +1,4 @@
-# Clean Blog Hexo
+# Magnetic Blog Hexo
 
 Hexo implementation of the free [HTML5 Magnetic Template](http://pixelhint.com/magnetic-free-html5-responsive-photography-website-template/)
 
