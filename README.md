@@ -2,7 +2,6 @@
 
 ![](http://www.codeblocq.com/img/hexo-theme-thumbnail/Magnetic.png)
 
-
 Hexo implementation of the free [HTML5 Magnetic Template](http://pixelhint.com/magnetic-free-html5-responsive-photography-website-template/)
 
 Magnetic is a photography/design portfolio oriented, responsive theme. [Demo here](http://www.codeblocq.com/assets/projects/hexo-theme-magnetic/).
@@ -31,7 +30,7 @@ Magnetic is a photography/design portfolio oriented, responsive theme. [Demo her
 ## Installation
 
 ```
-$ git clone https://github.com/klugjo/hexo-theme-magnetic magnetic
+$ git clone https://github.com/klugjo/hexo-theme-magnetic themes/magnetic
 ```
 
 Then update your blog's main `_config.yml` to set the theme to `magnetic`:
