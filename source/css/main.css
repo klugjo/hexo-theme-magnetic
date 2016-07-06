@@ -427,11 +427,11 @@ h5, h6          { font-weight: bolder }
     overflow: hidden;
     display: block;
     position: relative;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-position: 50% 50%;
+    background-size: cover !important;
+    -webkit-background-size: cover !important;
+    -moz-background-size: cover !important;
+    -o-background-size: cover !important;
+    background-position: 50% 50% !important;
 }
 
 .work_nav{
