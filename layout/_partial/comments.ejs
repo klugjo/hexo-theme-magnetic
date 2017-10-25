@@ -22,3 +22,23 @@
 
     <div class="fb-comments" data-href="<%= url %>" data-num-posts="<%= theme.comments.facebook.comment_count %>" data-width="100%" data-colorscheme="<%= theme.comments.facebook.comment_colorscheme %>"></div>
 <% } %>
+
+<% if(page.comments && theme.comments && theme.comments.valine && theme.comments.valine.appid && theme.comments.valine.appkey ){ %>
+    <hr />
+    <h3><%- __('comment')%>:</h3>
+    <div id="valine"></div>
+    <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+    <script src='//unpkg.com/valine@1.1.7/dist/Valine.min.js'></script>
+    <script>
+    new Valine({
+        el: '#valine' ,
+        notify:<%= theme.comments.valine.notify %>,
+        verify:<%= theme.comments.valine.verify %>,
+        app_id: '<%= theme.comments.valine.appid %>',
+        app_key: '<%= theme.comments.valine.appkey %>',
+        placeholder: '<%= theme.comments.valine.placeholder %>',
+        path:window.location.pathname,
+        avatar:'<%= theme.comments.valine.avatar %>' 
+    });
+    </script>
+<% } %>
