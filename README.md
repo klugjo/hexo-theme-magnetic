@@ -86,6 +86,16 @@ You can specify a default thumbnail for posts/pages on the post/page page (Detai
 # Default post cover index page
 default_cover_detail: "http://placehold.it/1300x500"
 
+### Favicon
+
+You can specify the favicon.
+
+Example:
+```
+# Favicon
+favicon: "/img/favicon.ico"
+```
+
 ### Comments
 
 The comments provider is specified in the theme's `_config.yml`. If you specify both a `disqus_shortname` and a `facebook.appid` there will be 2 sets of comment per post. So choose one.
