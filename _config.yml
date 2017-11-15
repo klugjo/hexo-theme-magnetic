@@ -12,6 +12,9 @@ default_cover_index: "http://placehold.it/450x450"
 # Default post cover index page
 default_cover_detail: "http://placehold.it/1300x500"
 
+# Favicon
+favicon: ""
+
 # Comments. Choose one by filling up the information
 comments:
   # Disqus comments
